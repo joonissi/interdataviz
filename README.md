@@ -10,6 +10,8 @@
 - Source code
   - API/DATA?
   - D3.js
+- A link to your online visualization
+  - (https://joonissi.github.io/interdataviz/)[https://joonissi.github.io/interdataviz/]
 - Report (3-6 pages)
   - the chosen data; the questions you want to answer through visualizing the data;
 

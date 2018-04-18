@@ -20,7 +20,7 @@ references.
 
 ## d3.js demos
 
-<!DOCTYPE html>
+
 <meta charset="utf-8">
 <style>
 
@@ -30,7 +30,7 @@ references.
 }
 
 </style>
-<svg width="960" height="500"></svg>
+<svg width="460" height="500"></svg>
 <script src="https://d3js.org/d3.v4.min.js"></script>
 <script>
 
@@ -112,4 +112,8 @@ function type(d) {
 }
 
 </script>
+
+
+
+
 

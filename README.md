@@ -1,5 +1,9 @@
 # Interactive Data Visualization
 
+## Team
+
+- Joona Nissinen
+- Ilkka Porna
 
 ## TODOS
 

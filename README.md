@@ -1,4 +1,11 @@
-## Welcome to GitHub Pages
+# Interactive Data Visualization
+
+## TODOS
+
+- Source code
+- Report (3-6 pages)
+- Presentation (pdf)
+
 
 You can use the [editor on GitHub](https://github.com/joonissi/interdataviz/edit/master/README.md) to maintain and preview the content for your website in Markdown files.
 

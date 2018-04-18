@@ -30,7 +30,7 @@
 }
 
 </style>
-<svg width="460" height="500"></svg>
+<svg width="660" height="500"></svg>
 <script src="https://d3js.org/d3.v4.min.js"></script>
 <script>
 

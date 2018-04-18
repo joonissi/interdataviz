@@ -125,10 +125,8 @@ function type(d) {
 }
 
 </style>
-<body>
 
-<!-- load the d3.js library -->    	
-<script src="https://d3js.org/d3.v4.min.js"></script>
+
 <script>
 
 // set the dimensions and margins of the graph
@@ -151,7 +149,7 @@ var valueline = d3.line()
 // append the svg obgect to the body of the page
 // appends a 'group' element to 'svg'
 // moves the 'group' element to the top left margin
-var svg = d3.select("body").append("svg")
+var svg1 = d3.select("body").append("svg")
     .attr("width", width + margin.left + margin.right)
     .attr("height", height + margin.top + margin.bottom)
   .append("g")
@@ -173,18 +171,18 @@ d3.csv("data.csv", function(error, data) {
   y.domain([0, d3.max(data, function(d) { return d.close; })]);
 
   // Add the valueline path.
-  svg.append("path")
+  svg1.append("path")
       .data([data])
       .attr("class", "line")
       .attr("d", valueline);
 
   // Add the X Axis
-  svg.append("g")
+  svg1.append("g")
       .attr("transform", "translate(0," + height + ")")
       .call(d3.axisBottom(x));
 
   // Add the Y Axis
-  svg.append("g")
+  svg1.append("g")
       .call(d3.axisLeft(y));
 
 });

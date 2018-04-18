@@ -13,8 +13,8 @@
   - the insights, like observations and discovery, you get after visualizing your data including answers to your initial questions;
   - the limitations of the visualization;
   - each member's contribution to the project;
-
-references.
+  - references.
+  
 - Presentation (pdf)
 
 

@@ -9,11 +9,12 @@ kw = articles_feb.keywords
 timestamp = articles_feb.pubDate
 
 f = open('article_keywords_and_dates.csv','w')
+f.write('keywords,timestamp' + '\r\n')
 
 for index, row in articles_feb.iterrows():
   
-  print '\"' + row['keywords'][1:-1].replace('\'','') + '\"' + ',' + row['pubDate']
-  line = '\"' + row['keywords'][1:-1].replace('\'','') + '\"' + ',' + row['pubDate']
-  f.write(line + "\n")
+  print '\"' + row['keywords'][1:-1].replace('\'','').replace('"','\'') + '\"' + ',' + row['pubDate']
+  line = '\"' + row['keywords'][1:-1].replace('\'','').replace('"','\'') + '\"' + ',' + row['pubDate']
+  f.write(line + '\r\n')
 
 f.close()

@@ -26,9 +26,9 @@
   | Data                   | Size          | columns        |
   | ---------------------- |:-------------:| --------------:|
   | credits.csv            | 180mb         | cast,crew,id   |
-  | keywords.csv           | 5mb           |                |
-  | links.csv              | 1mb           |                |
-  | movies_metadata.csv    | 32mb          |                |
+  | keywords.csv           | 5mb           | id,keywords    |
+  | links.csv              | 1mb           | movieId,imdbId,tmdbId  |
+  | movies_metadata.csv    | 32mb          | adult,belongs_to_collection,budget,genres,homepage,id,imdbId,original_language,original_title,overview,popularity,poster_path,production_companies,production_countries,release_date,revenue,runtime,spoken_languages,status,tagline,title,video,vote_average,vote_count             |
   | ratings_small.csv      | 2mb           |                |
  
  

@@ -20,11 +20,15 @@
 
   ### MOVIES DATA
   
-  - credits.csv ~180mb
-  - keywords.csv ~5mb
-  - links.csv ~1mb
-  - movies_metadata.csv ~32mb
-  - ratings_small.csv ~2mb
+  | Data                   | Size          | columns        |
+  | ---------------------- |:-------------:| --------------:|
+  | credits.csv            | 180mb         | cast,crew,id   |
+  | keywords.csv           | 5mb           |                |
+  | links.csv              | 1mb           |                |
+  | movies_metadata.csv    | 32mb          |                |
+  | ratings_small.csv      | 2mb           |                |
+ 
+ 
 
   ### What questions to ask from data?
 

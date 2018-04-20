@@ -14,6 +14,6 @@ for index, row in articles_feb.iterrows():
   
   print '\"' + row['keywords'][1:-1].replace('\'','') + '\"' + ',' + row['pubDate']
   line = '\"' + row['keywords'][1:-1].replace('\'','') + '\"' + ',' + row['pubDate']
-  f.write(line)
+  f.write(line + "\n")
 
 f.close()

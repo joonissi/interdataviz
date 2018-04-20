@@ -1,5 +1,6 @@
 import pandas as pd
 import re
+import ast
 
 articles_feb = pd.read_csv('NYTArticlesFeb2017.csv')
 
@@ -18,14 +19,24 @@ for index, row in articles_feb.iterrows():
   #line = '\"' + row['keywords'][1:-1].replace('\'','').replace('"','\'') + '\"' + ',' + row['pubDate']
   #f.write(line + '\r\n')
 
-  s = row['keywords'][1:-1].replace('\'','').replace('"','\'')
-  ss = [x.strip() for x in s.split(',')]
+  #s = row['keywords'][1:-1].replace('\'','').replace('"','\'')
+  s = ast.literal_eval(row['keywords'])
+  s = [n.strip() for n in s]
+  ss = [n.replace(',', '') for n in s]
+  print ss
+
+  for j in ss:
+    line = j + ',' + row['articleID'] + ',' + row['pubDate']
+    print line
+    f.write(line + '\r\n')
+
+  #ss = [x.strip() for x in s.split(',')]
   #print ss
 
-  for i in ss:
-    sss =  i + ',' + row['articleID'] + ',' + row['pubDate']
-    print sss
-    f.write(sss + '\r\n')
+  # for i in ss:
+  #   sss =  i + ',' + row['articleID'] + ',' + row['pubDate']
+  #   print sss
+  #   f.write(sss + '\r\n')
 
 f.close()
 

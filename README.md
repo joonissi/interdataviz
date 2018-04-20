@@ -18,27 +18,29 @@
 - Presentation (pdf)
   - LINK HERE
 
-  ### MOVIES DATA
+  ### New York Time Comment Data
   
-  [https://www.kaggle.com/rounakbanik/the-movies-dataset](https://www.kaggle.com/rounakbanik/the-movies-dataset)
+  [https://www.kaggle.com/aashita/nyt-comments/data](https://www.kaggle.com/aashita/nyt-comments/data)
+
+
+  ### Meta data
   
-  
-  | Data                   | Size          | columns        |
-  | ---------------------- |:-------------:| --------------:|
-  | credits.csv            | 180mb         | cast,crew,id   |
-  | keywords.csv           | 5mb           | id,keywords    |
-  | links.csv              | 1mb           | movieId,imdbId,tmdbId  |
-  | movies_metadata.csv    | 32mb          | adult,belongs_to_collection,budget,genres,homepage,id,imdbId,original_language,original_title,overview,popularity,poster_path,production_companies,production_countries,release_date,revenue,runtime,spoken_languages,status,tagline,title,video,vote_average,vote_count |
-  | ratings_small.csv      | 2mb           | userId,movieId,rating,timestamp                |
- 
+  | Data                      | Size          | columns        |
+  | ------------------------- |:-------------:| --------------:|
+  | NYTArticlesFeb2017.csv    | 0.5mb         | articleID,abstract,byline,documentType,headline,keywords,multimedia,newDesk,printPage,pubDate,sectionName,snippet,source,typeOfMaterial,webURL,articleWordCount   |
+  | NYTArticlesJan2017.csv    | 0.5mb         | articleID,abstract,byline,documentType,headline,keywords,multimedia,newDesk,printPage,pubDate,sectionName,snippet,source,typeOfMaterial,webURL,articleWordCount   |
+  | NYTArticlesMarch2018.csv  | 0.5mb         | articleID,abstract,byline,documentType,headline,keywords,multimedia,newDesk,printPage,pubDate,sectionName,snippet,source,typeOfMaterial,webURL,articleWordCount   |
+  | NYTCommentsFeb2017.csv    | 160mb         | approveDate,articleID,articleWordCount,commentBody,commentID,commentSequence
+,commentTitle,commentType,createDate,depth,editorsSelection,inReplyTo,newDesk,parentID,parentUserDisplayName,permID,picURL,printPage,recommendations,recommendedFlag,replyCount,reportAbuseFlag,sectionName,sharing,status,timespeople,trusted,type_of_material,updateDate,userDisplayName,userID,userLocation,userTitle,userURL   |
+  | NYTCommentsJan2017.csv    | 160mb         | approveDate,articleID,articleWordCount,commentBody,commentID,commentSequence
+,commentTitle,commentType,createDate,depth,editorsSelection,inReplyTo,newDesk,parentID,parentUserDisplayName,permID,picURL,printPage,recommendations,recommendedFlag,replyCount,reportAbuseFlag,sectionName,sharing,status,timespeople,trusted,type_of_material,updateDate,userDisplayName,userID,userLocation,userTitle,userURL   |
+  | NYTCommentsMarch2018.csv  | 160mb         | approveDate,articleID,articleWordCount,commentBody,commentID,commentSequence
+,commentTitle,commentType,createDate,depth,editorsSelection,inReplyTo,newDesk,parentID,parentUserDisplayName,permID,picURL,printPage,recommendations,recommendedFlag,replyCount,reportAbuseFlag,sectionName,sharing,status,timespeople,trusted,type_of_material,updateDate,userDisplayName,userID,userLocation,userTitle,userURL   |
  
 
   ### What questions to ask from data?
 
-  - When movies are made?
-  - What are the biggest genres?
-  - Which movies has the most ratings?
-  - Which movie has biggest revenue?
+
   - ...
   
   

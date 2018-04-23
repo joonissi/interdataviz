@@ -30,12 +30,9 @@
   | NYTArticlesFeb2017.csv    | 0.5mb         | articleID,abstract,byline,documentType,headline,keywords,multimedia,newDesk,printPage,pubDate,sectionName,snippet,source,typeOfMaterial,webURL,articleWordCount   |
   | NYTArticlesJan2017.csv    | 0.5mb         | articleID,abstract,byline,documentType,headline,keywords,multimedia,newDesk,printPage,pubDate,sectionName,snippet,source,typeOfMaterial,webURL,articleWordCount   |
   | NYTArticlesMarch2018.csv  | 0.5mb         | articleID,abstract,byline,documentType,headline,keywords,multimedia,newDesk,printPage,pubDate,sectionName,snippet,source,typeOfMaterial,webURL,articleWordCount   |
-  | NYTCommentsFeb2017.csv    | 160mb         | approveDate,articleID,articleWordCount,commentBody,commentID,commentSequence
-,commentTitle,commentType,createDate,depth,editorsSelection,inReplyTo,newDesk,parentID,parentUserDisplayName,permID,picURL,printPage,recommendations,recommendedFlag,replyCount,reportAbuseFlag,sectionName,sharing,status,timespeople,trusted,type_of_material,updateDate,userDisplayName,userID,userLocation,userTitle,userURL   |
-  | NYTCommentsJan2017.csv    | 160mb         | approveDate,articleID,articleWordCount,commentBody,commentID,commentSequence
-,commentTitle,commentType,createDate,depth,editorsSelection,inReplyTo,newDesk,parentID,parentUserDisplayName,permID,picURL,printPage,recommendations,recommendedFlag,replyCount,reportAbuseFlag,sectionName,sharing,status,timespeople,trusted,type_of_material,updateDate,userDisplayName,userID,userLocation,userTitle,userURL   |
-  | NYTCommentsMarch2018.csv  | 160mb         | approveDate,articleID,articleWordCount,commentBody,commentID,commentSequence
-,commentTitle,commentType,createDate,depth,editorsSelection,inReplyTo,newDesk,parentID,parentUserDisplayName,permID,picURL,printPage,recommendations,recommendedFlag,replyCount,reportAbuseFlag,sectionName,sharing,status,timespeople,trusted,type_of_material,updateDate,userDisplayName,userID,userLocation,userTitle,userURL   |
+  | NYTCommentsFeb2017.csv    | 160mb         | approveDate,articleID,articleWordCount,commentBody,commentID,commentSequence,commentTitle,commentType,createDate,depth,editorsSelection,inReplyTo,newDesk,parentID,parentUserDisplayName,permID,picURL,printPage,recommendations,recommendedFlag,replyCount,reportAbuseFlag,sectionName,sharing,status,timespeople,trusted,type_of_material,updateDate,userDisplayName,userID,userLocation,userTitle,userURL |
+  | NYTCommentsJan2017.csv    | 160mb         | data   |
+  | NYTCommentsMarch2018.csv  | 160mb         | data   |
  
 
   ### What questions to ask from data?
@@ -44,5 +41,5 @@
   - ...
   
   
-  
+
   

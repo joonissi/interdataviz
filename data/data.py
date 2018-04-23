@@ -2,7 +2,7 @@ import pandas as pd
 import re
 import ast
 
-articles_feb = pd.read_csv('NYTArticlesFeb2017.csv')
+articles_feb = pd.read_csv('NYTArticlesMarch2018.csv')
 
 print articles_feb.keys()
 
@@ -10,8 +10,8 @@ print articles_feb.keys()
 kw = articles_feb.keywords
 timestamp = articles_feb.pubDate
 
-f = open('article_keywords_and_dates.csv','w')
-f.write('keywords,articleID,timestamp' + '\r\n')
+f = open('article_keywords_and_dates_march.csv','w')
+f.write('keywords,articleID,pubDate' + '\r\n')
 
 for index, row in articles_feb.iterrows():
   

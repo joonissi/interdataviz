@@ -16,7 +16,7 @@
   - [https://github.com/joonissi/interdataviz/blob/master/REPORT.md](https://github.com/joonissi/interdataviz/blob/master/REPORT.md)
 
 ### Joona
-  - TASK #1
+  - Make keyword bar plot better (zoom)
   - TASK #2
 
 ### Ilkka

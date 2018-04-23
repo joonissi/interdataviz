@@ -54,10 +54,10 @@
         .data(data)
         .enter().append("rect")
         .attr("class", "bar")
-        .attr("x", function (d) { return x(d.salesperson); })
+        .attr("x", function (d) { return x(d.keyword); })
         .attr("width", x.bandwidth())
-        .attr("y", function (d) { return y(d.sales); })
-        .attr("height", function (d) { return height - y(d.sales); });
+        .attr("y", function (d) { return y(d.count); })
+        .attr("height", function (d) { return height - y(d.count); });
 
       // add the x Axis
       svg.append("g")

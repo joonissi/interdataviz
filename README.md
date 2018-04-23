@@ -14,6 +14,14 @@
   - [https://joonissi.github.io/interdataviz/](https://joonissi.github.io/interdataviz/)
 - Report (3-6 pages)
   - [https://github.com/joonissi/interdataviz/blob/master/REPORT.md](https://github.com/joonissi/interdataviz/blob/master/REPORT.md)
+
+### Joona
+  - TASK #1
+  - TASK #2
+
+### Ilkka
+  - Implement zoom to scatter plot  
+  - TASK #2
   
 - Presentation (pdf)
   - LINK HERE
@@ -38,7 +46,10 @@
   ### What questions to ask from data?
 
 
-  - ...
+  - Which article keywords are most common?
+  - which is the most common article writer?
+  - Is there correlation between article word count and comment word count?
+  - Which type of news get the most comments?
   
   
 

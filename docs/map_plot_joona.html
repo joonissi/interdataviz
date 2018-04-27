@@ -143,17 +143,17 @@ svg.selectAll("path")
 	.style("stroke-width", "1")
 	.style("fill", function(d) {
 
-	// Get data value
-	var value = d.properties.visited;
+    // Get data value
+    var value = d.properties.visited;
 
-	if (value) {
-	//If value exists…
-	return color(value);
-	} else {
-	//If value is undefined…
-	return "rgb(213,222,217)";
-	}
-});
+    if (value) {
+    //If value exists…
+      return color(value);
+    } else {
+    //If value is undefined…
+      return "rgb(213,222,217)";
+    }
+  });
 
 		 
 // Map the cities I have lived in!

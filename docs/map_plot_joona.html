@@ -168,6 +168,20 @@ svg.selectAll("path")
 	.style("stroke", "#fff")
 	.style("stroke-width", "1")
   .attr("id", function (d) { return d.properties.state; })
+  .on('mouseover', function (d) {
+    //alert(d.properties.state)
+    div.transition()        
+      .duration(200)      
+      .style("opacity", .9);      
+      div.text(d.properties.state)
+        .style("left", (d3.event.pageX) + "px")     
+        .style("top", (d3.event.pageY - 28) + "px");  
+  })
+  .on("mouseout", function (d) {   
+    div.transition()        
+      .duration(500)      
+      .style("opacity", 0);
+  })
 	.style("fill", function(d) {
 
     // Get data value
@@ -181,6 +195,9 @@ svg.selectAll("path")
       return "rgb(213,222,217)";
     }
   });
+  
+
+  
 
 		 
 // Map the cities I have lived in!
@@ -213,12 +230,12 @@ svg.selectAll("path")
 //            .style("top", (d3.event.pageY - 28) + "px");    
 // 	})   
 
-//     // fade out tooltip on mouse out               
-//     .on("mouseout", function(d) {       
-//         div.transition()        
-//            .duration(500)      
-//            .style("opacity", 0);   
-//     });
+//   // fade out tooltip on mouse out               
+//   .on("mouseout", function(d) {       
+//       div.transition()        
+//           .duration(500)      
+//           .style("opacity", 0);   
+//   });
 // });  
         
 // Modified Legend Code from Mike Bostock: http://bl.ocks.org/mbostock/3888852

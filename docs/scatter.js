@@ -12,10 +12,10 @@ var y = d3.scale.linear()
 
 var xCat = "Calories",
     yCat = "Potassium",
-    rCat = "Protein (g)",
-    colorCat = "Manufacturer";
+//    rCat = "Protein (g)",
+//    colorCat = "Manufacturer";
 
-d3.csv("cereal.csv", function(data) {
+d3.csv("../data/keywords_article_comment_counts.csv", function(data) {
   data.forEach(function(d) {
     d.Calories = +d.Calories;
     d.Carbs = +d.Carbs;

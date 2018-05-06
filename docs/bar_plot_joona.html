@@ -19,7 +19,7 @@
   <script>
 
     // set the dimensions and margins of the graph
-    var margin = { top: 20, right: 20, bottom: 30, left: 40 },
+    var margin = { top: 20, right: 20, bottom: 200, left: 40 },
       width = 1460 - margin.left - margin.right,
       height = 600 - margin.top - margin.bottom;
 
@@ -70,7 +70,7 @@
         .selectAll("text")
         .attr("y", 0)
         .attr("x", 10)
-        .attr("dy", ".35em")
+        .attr("dy", "1.75em")
         .attr("transform", "rotate(45)")
         .style("text-anchor", "start");
 
